@@ -1,13 +1,17 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
+
+import path from 'path'
+import { fileURLToPath, URL } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(new URL(import.meta.url)))
 
 export default defineConfig({
   plugins: [vue()],
-  build: { 
+  build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html') 
+        main: path.resolve(__dirname, 'index.html')
       }
     }
   }
