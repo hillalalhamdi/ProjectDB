@@ -32,7 +32,7 @@
               </div>
             </a>
             <a
-              href="https://instagram.com/najibazharun"
+              href="https://instagram.com/edutech"
               class="contact-method instagram"
               target="_blank"
             >
@@ -42,7 +42,7 @@
               <div class="method-info">
                 <h4>Instagram</h4>
                 <p>Follow us for updates and tips</p>
-                <span>@najibazharun</span>
+                <span>@edutech</span>
               </div>
             </a>
             <a
