@@ -13,34 +13,34 @@
             need technical support, or want to discuss your learning goals, our team is ready to assist.
           </p>
           <div class="contact-methods">
-            <a href="https://wa.me/1234567890" class="contact-method whatsapp" target="_blank">
+            <a href="https://wa.me/081339656799" class="contact-method whatsapp" target="_blank">
               <div class="method-icon">
                 <i class="fab fa-whatsapp"></i>
               </div>
               <div class="method-info">
                 <h4>WhatsApp</h4>
                 <p>Quick support and instant answers</p>
-                <span>+1 (234) 567-8900</span>
+                <span>+62 813-3965-6799</span>
               </div>
             </a>
-            <a href="https://instagram.com/edutech" class="contact-method instagram" target="_blank">
+            <a href="https://instagram.com/najibazharun" class="contact-method instagram" target="_blank">
               <div class="method-icon">
                 <i class="fab fa-instagram"></i>
               </div>
               <div class="method-info">
                 <h4>Instagram</h4>
                 <p>Follow us for updates and tips</p>
-                <span>@edutech</span>
+                <span>@najibazharun</span>
               </div>
             </a>
-            <a href="mailto:hello@edutech.com" class="contact-method email">
+            <a href="mailto:najwaazharun10@gmail.com" class="contact-method email">
               <div class="method-icon">
                 <i class="fas fa-envelope"></i>
               </div>
               <div class="method-info">
                 <h4>Email</h4>
                 <p>Detailed inquiries and support</p>
-                <span>hello@edutech.com</span>
+                <span>najwaazharun10@gmail.com</span>
               </div>
             </a>
           </div>
