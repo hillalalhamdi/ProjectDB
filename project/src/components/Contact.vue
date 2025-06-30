@@ -20,7 +20,7 @@
               <div class="method-info">
                 <h4>WhatsApp</h4>
                 <p>Quick support and instant answers</p>
-                <span>+62 813-3965-6799</span>
+                <span>+6281339656799</span>
               </div>
             </a>
             <a href="https://instagram.com/najibazharun" class="contact-method instagram" target="_blank">
