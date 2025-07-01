@@ -3,37 +3,52 @@
     <div class="container">
       <div class="section-header">
         <h2>Get in Touch</h2>
-        <p>Ready to start your learning journey? Contact us through any of these channels</p>
+        <p>
+          Ready to start your learning journey? Contact us through any of these
+          channels
+        </p>
       </div>
       <div class="contact-grid">
         <div class="contact-info">
           <h3>Let's Connect</h3>
           <p>
-            We're here to help you every step of the way. Whether you have questions about our courses, 
-            need technical support, or want to discuss your learning goals, our team is ready to assist.
+            We're here to help you every step of the way. Whether you have
+            questions about our courses, need technical support, or want to
+            discuss your learning goals, our team is ready to assist.
           </p>
           <div class="contact-methods">
-            <a href="https://wa.me/081339656799" class="contact-method whatsapp" target="_blank">
+            <a
+              href="https://wa.me/+6281339656799"
+              class="contact-method whatsapp"
+              target="_blank"
+            >
               <div class="method-icon">
                 <i class="fab fa-whatsapp"></i>
               </div>
               <div class="method-info">
                 <h4>WhatsApp</h4>
                 <p>Quick support and instant answers</p>
-                <span>+62 813-3965-6799</span>
+                <span>+6281339656799</span>
               </div>
             </a>
-            <a href="https://instagram.com/najibazharun" class="contact-method instagram" target="_blank">
+            <a
+              href="https://instagram.com/edutech"
+              class="contact-method instagram"
+              target="_blank"
+            >
               <div class="method-icon">
                 <i class="fab fa-instagram"></i>
               </div>
               <div class="method-info">
                 <h4>Instagram</h4>
                 <p>Follow us for updates and tips</p>
-                <span>@najibazharun</span>
+                <span>@edutech</span>
               </div>
             </a>
-            <a href="mailto:najwaazharun10@gmail.com" class="contact-method email">
+            <a
+              href="mailto:najwaazharun10@gmail.com"
+              class="contact-method email"
+            >
               <div class="method-icon">
                 <i class="fas fa-envelope"></i>
               </div>
@@ -50,11 +65,11 @@
           <form @submit.prevent="submitForm">
             <div class="form-group">
               <label for="name">Full Name</label>
-              <input type="text" id="name" v-model="form.name" required>
+              <input type="text" id="name" v-model="form.name" required />
             </div>
             <div class="form-group">
               <label for="email">Email Address</label>
-              <input type="email" id="email" v-model="form.email" required>
+              <input type="email" id="email" v-model="form.email" required />
             </div>
             <div class="form-group">
               <label for="interest">Area of Interest</label>
@@ -70,7 +85,12 @@
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" v-model="form.message" rows="4" required></textarea>
+              <textarea
+                id="message"
+                v-model="form.message"
+                rows="4"
+                required
+              ></textarea>
             </div>
             <button type="submit" class="submit-button">Send Message</button>
           </form>
@@ -81,28 +101,28 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
 const form = ref({
-  name: '',
-  email: '',
-  interest: '',
-  message: ''
-})
+  name: "",
+  email: "",
+  interest: "",
+  message: "",
+});
 
 const submitForm = () => {
   // Handle form submission here
-  console.log('Form submitted:', form.value)
-  alert('Thank you for your message! We\'ll get back to you soon.')
-  
+  console.log("Form submitted:", form.value);
+  alert("Thank you for your message! We'll get back to you soon.");
+
   // Reset form
   form.value = {
-    name: '',
-    email: '',
-    interest: '',
-    message: ''
-  }
-}
+    name: "",
+    email: "",
+    interest: "",
+    message: "",
+  };
+};
 </script>
 
 <style scoped>
